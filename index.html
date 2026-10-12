@@ -3,232 +3,278 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Haitham Mohamed Nour | Portfolio</title>
+<title>Haitham Mohamed Nour | Backend Developer &amp; Data Science Student</title>
+<meta name="description" content="Portfolio of Haitham Mohamed Nour: Computer &amp; Data Science student at Alexandria National University. PHP and MySQL back-end projects, UI/UX design, and machine learning coursework.">
 
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<nav class="topnav" aria-label="Sections">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+</nav>
+
 <header class="hero">
-    <img src="profile.jpg" alt="Profile" class="profile">
+    <img src="profile.jpg" alt="Haitham Mohamed Nour" class="profile" width="168" height="168">
 
-    <h1>Haitham Mohamed Nour</h1>
+    <div class="hero-text">
+        <p class="status"><span class="dot" aria-hidden="true"></span>Open to work · Alexandria, Egypt</p>
 
-    <h3>Full-Stack Developer | Intelligent Systems Student</h3>
+        <h1>Haitham Mohamed Nour</h1>
 
-    <p>
-        Passionate about Web Development, AI, Software Engineering
-        and Building Modern Digital Solutions.
-    </p>
+        <h2>Backend Developer · ML &amp; AI · UI/UX</h2>
 
-    <div class="buttons">
-        <a href="#" class="btn">Download CV</a>
+        <p class="lead">
+            Computer &amp; Data Science student building web applications with
+            PHP and MySQL, and learning machine learning through hands-on courses
+            and projects.
+        </p>
 
-        <a href="https://github.com/HaithamMohamedNour"
-           class="btn"
-           target="_blank">
-            GitHub
-        </a>
+        <div class="buttons">
+            <a href="cv.pdf" class="btn primary" download>Download CV</a>
+            <a href="https://github.com/HaithamMohamedNour" class="btn" target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/haitham-nour-305aa0333" class="btn" target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
     </div>
 </header>
 
+<main>
 
-<section class="container fade">
-    <h2>About Me</h2>
-
+<section class="container" id="about">
+    <h2>About me</h2>
     <p>
-        Computer and Data Science student at Alexandria National University
-        specializing in Intelligent Systems.
-        Strong foundation in Full-Stack Development, Databases,
-        Object-Oriented Programming, and UI/UX Design.
-        Seeking opportunities to contribute to innovative software solutions.
+        I study Computer and Data Science (Intelligent Systems) at Alexandria
+        National University. Over the past year at the Information Technology
+        Institute (ITI) I built database-driven web applications in PHP and
+        MySQL and redesigned interfaces as a UI/UX trainee. I'm now adding
+        data analytics and machine learning to that foundation, and I'm looking
+        for a junior backend, data, or software role where I can keep building.
     </p>
 </section>
 
-
-<section class="container fade">
+<section class="container" id="education">
     <h2>Education</h2>
 
     <div class="card">
         <h3>Alexandria National University (ANU)</h3>
-
-        <p>
-            Faculty of Computer and Data Science – Intelligent Systems
-        </p>
-
-        <p>
-            Expected Graduation: 2029
-        </p>
-
-        <p>
-            <strong>GPA:</strong> 3.5 / 4.0
-        </p>
+        <p>Faculty of Computer and Data Science, Intelligent Systems</p>
+        <p>Expected graduation: 2029 · <strong>GPA:</strong> 3.5 / 4.0</p>
     </div>
 </section>
 
+<section class="container" id="skills">
+    <h2>Technical skills</h2>
 
-<section class="container fade">
-    <h2>Technical Skills</h2>
+    <div class="skill-groups">
+        <div>
+            <h3>Web &amp; backend</h3>
+            <div class="skills">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>PDO</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>API Integration</span>
+            </div>
+        </div>
 
-    <div class="skills">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>PHP</span>
-        <span>Python</span>
-        <span>Java</span>
-        <span>MySQL</span>
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>API Integration</span>
-        <span>UI/UX</span>
+        <div>
+            <h3>Data &amp; AI</h3>
+            <div class="skills">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Data Analysis</span>
+                <span>Cloud Computing</span>
+            </div>
+        </div>
+
+        <div>
+            <h3>Tools &amp; design</h3>
+            <div class="skills">
+                <span>Java</span>
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>UI/UX Design</span>
+            </div>
+        </div>
     </div>
 </section>
 
+<section class="container" id="projects">
+    <h2>Featured projects</h2>
 
-<section class="container fade">
-    <h2>Featured Projects</h2>
-
-
-    <!-- Electronic Game Store -->
     <div class="card">
-
-        <h3>Electronic Game Store</h3>
-
-        <p>
-            Developed as a team project with features including
-            game browsing, searching, authentication,
-            database management, and purchasing simulation.
-        </p>
-
-        <a href="https://github.com/HaithamMohamedNour/Game--store.git"
-           target="_blank">
-            View Project →
-        </a>
-
-    </div>
-
-
-    <!-- Education Management System -->
-    <div class="card">
-
         <h3>Education Management System</h3>
-
         <p>
-            Developed a web-based education management system using
-            PHP, MySQL, and PDO. The system includes user authentication,
-            role-based access, course management, and an admin dashboard.
+            Web-based system built with PHP, MySQL, and PDO. It includes user
+            authentication, role-based access, course management, and an
+            admin dashboard.
         </p>
-
-        <a href="https://github.com/HaithamMohamedNour/education-system.git"
-           target="_blank">
-            View Project →
+        <p class="tags">PHP · MySQL · PDO</p>
+        <a href="https://github.com/HaithamMohamedNour/education-system" target="_blank" rel="noopener">
+            View on GitHub
         </a>
-
     </div>
 
+    <div class="card">
+        <h3>Electronic Game Store</h3>
+        <p>
+            Team project with game browsing, search, authentication,
+            database management, and a purchase simulation.
+        </p>
+        <p class="tags">Team project · Database</p>
+        <a href="https://github.com/HaithamMohamedNour/Game--store" target="_blank" rel="noopener">
+            View on GitHub
+        </a>
+    </div>
+
+    <div class="card">
+        <h3>Ticket Booking App (UI design)</h3>
+        <p>
+            Interface design for a ticket booking app, created during my
+            ITI UI/UX training with a focus on clear layouts and a simple
+            booking flow.
+        </p>
+        <p class="tags">UI/UX · Prototype</p>
+    </div>
 </section>
 
-
-<section class="container fade">
+<section class="container" id="experience">
     <h2>Experience</h2>
 
     <div class="timeline">
 
         <div class="item">
-            <h3>ITI – UI/UX Design Training</h3>
-
-            <p>
-                Analyzed interfaces, improved usability,
-                and redesigned user experiences.
-            </p>
+            <h3>Data Analytics Intern, Elevvo</h3>
+            <p class="meta">Started Jul 2026</p>
+            <p>Data analytics internship focused on practical analysis tasks.</p>
         </div>
-
 
         <div class="item">
-            <h3>QNB Internship</h3>
-
+            <h3>Intern, Information Technology Institute (ITI)</h3>
+            <p class="meta">Aug 2025 – Jul 2026</p>
             <p>
-                Supported technical teams, managed data,
-                and gained banking technology experience.
+                Full-stack development track with back-end courses delivered
+                with Mahara Tech: PHP and MySQL web applications, and database
+                fundamentals.
             </p>
         </div>
-
 
         <div class="item">
-            <h3>DIGITOPIA Competition</h3>
-
+            <h3>Interface Specialist, ITI</h3>
+            <p class="meta">Sep 2025</p>
             <p>
-                Reached the second stage in Programming &
-                Artificial Intelligence track.
+                Worked with a team to find usability issues and UI flaws in an
+                existing menus application, then improved the interface using
+                modern UI/UX principles.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>DIGITOPIA competition, Ministry of Communications and IT (MCIT)</h3>
+            <p class="meta">Aug – Sep 2025</p>
+            <p>
+                Competed in the national programming track and advanced to
+                the second stage of the competition's first edition.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3>Summer Intern, QNB Egypt</h3>
+            <p class="meta">Aug 2025 · Cairo</p>
+            <p>
+                Summer training in data entry and technical support,
+                working with banking systems and data management.
             </p>
         </div>
 
     </div>
 </section>
 
+<section class="container" id="certificates">
+    <h2>Certificates</h2>
 
-<section class="container fade">
-    <h2>Certificates & Achievements</h2>
-
-    <div class="card">
-
-        <ul>
-            <li>ITI UI/UX Design Training Certificate</li>
-
-            <li>QNB Internship Experience</li>
-
-            <li>DIGITOPIA Competition Participant</li>
-
-            <li>Advanced to Competition Stage 2</li>
-        </ul>
-
-    </div>
+    <ul class="certs">
+        <li>
+            <strong>Machine Learning for Data Science Projects</strong>
+            <span>IBM SkillsBuild · Sep 2026</span>
+        </li>
+        <li>
+            <strong>Understanding Cloud Computing</strong>
+            <span>DataCamp · Aug 2026</span>
+        </li>
+        <li>
+            <strong>Data Science Essentials with Python</strong>
+            <span>Cisco Networking Academy · Aug 2026</span>
+        </li>
+        <li>
+            <strong>Building Web Applications using PHP &amp; MySQL</strong>
+            <span>ITI × Mahara Tech · 2026</span>
+        </li>
+        <li>
+            <strong>Database Fundamentals</strong>
+            <span>ITI × Mahara Tech · 2026</span>
+        </li>
+        <li>
+            <strong>UI/UX Design (60 hours)</strong>
+            <span>Information Technology Institute (ITI) · Aug – Sep 2025</span>
+        </li>
+    </ul>
 </section>
 
+<section class="container" id="why">
+    <h2>Why hire me</h2>
 
-<section class="container fade">
-    <h2>Why Hire Me?</h2>
-
-    <div class="card">
-
-        <p>
-            I combine academic knowledge in Intelligent Systems
-            with practical experience in software development,
-            teamwork, UI/UX design, and problem solving.
-            I am committed to continuous learning and
-            delivering high-quality solutions.
-        </p>
-
-    </div>
+    <p>
+        I ship small, complete things: a login system with roles, a database
+        schema, a redesigned screen. I back that up with coursework in
+        machine learning and data analysis, and I keep a public record of it
+        on GitHub and LinkedIn.
+    </p>
 </section>
 
-
-<section class="container fade">
+<section class="container" id="contact">
     <h2>Contact</h2>
 
-    <div class="card">
-
+    <div class="card contact">
         <p>
-            <i class="fas fa-envelope"></i>
-            2405623@anu.edu.eg
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:2405623@anu.edu.eg">2405623@anu.edu.eg</a>
         </p>
-
         <p>
-            <i class="fas fa-phone"></i>
-            +20 122 012 9718
+            <i class="fas fa-phone" aria-hidden="true"></i>
+            <a href="tel:+201220129718">+20 122 012 9718</a>
         </p>
-
         <p>
-            <i class="fab fa-github"></i>
-            github.com/HaithamMohamedNour
+            <i class="fab fa-github" aria-hidden="true"></i>
+            <a href="https://github.com/HaithamMohamedNour" target="_blank" rel="noopener">github.com/HaithamMohamedNour</a>
         </p>
-
+        <p>
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+            <a href="https://www.linkedin.com/in/haitham-nour-305aa0333" target="_blank" rel="noopener">linkedin.com/in/haitham-nour-305aa0333</a>
+        </p>
     </div>
 </section>
 
+</main>
+
+<footer>
+    <p>© 2026 Haitham Mohamed Nour</p>
+</footer>
 
 </body>
 </html>
